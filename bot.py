@@ -417,6 +417,11 @@ async def handle_revision_search(update: Update, context: CallbackContext) -> in
 
 # --- Fonction principale ---
 def main() -> None:
+    # Vérifier que le token est bien défini
+    if not TELEGRAM_API_KEY:
+        logger.error("TELEGRAM_API_KEY n'est pas définie !")
+        return
+    
     application = Application.builder().token(TELEGRAM_API_KEY).build()
     
     # Gestionnaire de conversation

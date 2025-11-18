@@ -38,7 +38,7 @@ logger = logging.getLogger(__name__)
 
 # --- Données des pays et capitales ---
 [
-    // Afrique
+    # // Afrique
     {"continent": "Afrique", "country": "Algérie", "capital": "Alger", "population": 43},
     {"continent": "Afrique", "country": "Angola", "capital": "Luanda", "population": 33},
     {"continent": "Afrique", "country": "Bénin", "capital": "Porto-Novo", "population": 12},
@@ -94,7 +94,7 @@ logger = logging.getLogger(__name__)
     {"continent": "Afrique", "country": "Zambie", "capital": "Lusaka", "population": 18},
     {"continent": "Afrique", "country": "Zimbabwe", "capital": "Harare", "population": 15},
 
-    // Asie
+    # // Asie
     {"continent": "Asie", "country": "Afghanistan", "capital": "Kabul", "population": 38},
     {"continent": "Asie", "country": "Arménie", "capital": "Erevan", "population": 3},
     {"continent": "Asie", "country": "Azerbaïdjan", "capital": "Bakou", "population": 10},
@@ -145,7 +145,7 @@ logger = logging.getLogger(__name__)
     {"continent": "Asie", "country": "Vietnam", "capital": "Hanoï", "population": 97},
     {"continent": "Asie", "country": "Yémen", "capital": "Sanaa", "population": 30},
 
-    // Europe
+    # // Europe
     {"continent": "Europe", "country": "Albanie", "capital": "Tirana", "population": 2.8},
     {"continent": "Europe", "country": "Andorre", "capital": "Andorre-la-Vieille", "population": 0.077},
     {"continent": "Europe", "country": "Autriche", "capital": "Vienne", "population": 9},
@@ -192,7 +192,7 @@ logger = logging.getLogger(__name__)
     {"continent": "Europe", "country": "Royaume-Uni", "capital": "Londres", "population": 67},
     {"continent": "Europe", "country": "Vatican", "capital": "Cité du Vatican", "population": 0.001},
 
-    // Amérique
+    # // Amérique
     {"continent": "Amérique", "country": "Antigua-et-Barbuda", "capital": "Saint John's", "population": 0.097},
     {"continent": "Amérique", "country": "Bahamas", "capital": "Nassau", "population": 0.39},
     {"continent": "Amérique", "country": "Barbade", "capital": "Bridgetown", "population": 0.287},
@@ -229,7 +229,7 @@ logger = logging.getLogger(__name__)
     {"continent": "Amérique", "country": "Uruguay", "capital": "Montevideo", "population": 3.5},
     {"continent": "Amérique", "country": "Venezuela", "capital": "Caracas", "population": 28},
 
-    // Océanie
+    # // Océanie
     {"continent": "Océanie", "country": "Australie", "capital": "Canberra", "population": 26},
     {"continent": "Océanie", "country": "Fidji", "capital": "Suva", "population": 0.9},
     {"continent": "Océanie", "country": "Kiribati", "capital": "Tarawa", "population": 0.12},
